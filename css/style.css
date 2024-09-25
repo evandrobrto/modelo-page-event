@@ -1,0 +1,163 @@
+html {
+    background-color: rgb(128, 128, 128, 0.5);
+    padding: 10px;
+}
+
+.container {
+    max-width: 1660px;
+    background-color: #fff;
+    position: relative;
+    margin: 10px auto;
+    padding: 10px 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Header */
+
+.header {
+    text-align: center;
+}
+
+.menu ul {
+    padding: 0px;
+    margin: 0px;
+    background-color: #EDEDED;
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    /* visual do link */
+    background-color: #EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 3px solid #EDEDED;
+}
+
+.menu ul li a:hover { 
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:1px solid #0c0b0b;
+  }
+
+/* Imagem Destaque */
+figure {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 800px;
+    height: 450px;
+
+}
+
+/* Descrição */
+
+.description-container {
+    text-align: left;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+    padding: 25px 0;
+    margin: 25px 0;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+/* Quotes */
+
+.quotes-container {
+    text-align: center;
+    background-color: #ddd;
+    padding: 30px;
+}
+
+.quotes-container blockquote {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.quotes-container p {
+    font-style: italic;
+}
+
+
+/* Curiosidades */
+
+.curiosities-container {
+    text-align: left;
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.citacao {
+    font-style: italic;
+    font-weight: 600;
+}
+
+/* Forms */
+.forms-container {
+    text-align: center;
+    background-color: #ddd;
+    padding: 30px;
+}
+
+/* Mais informações */
+
+.moreinfo-container{
+    text-align: center;
+}
+
+/* Buttons */
+.button{
+    text-align: ;
+    background-color: aqua;
+    border-radius: 15%;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.button2{
+    background: #0c0b0b;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px;
+    border: #333;
+}
+
+.button2:hover{
+    background: #333;
+}
+
+/* Footer */
+
+footer{
+    text-align: center;
+}
